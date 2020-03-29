@@ -53,7 +53,7 @@ public class ParseXmlCurrency {
             Integer nominal = Integer.parseInt(element.getElementsByTagName("Nominal").item(0).getChildNodes().item(0).getNodeValue());
             String name =  element.getElementsByTagName("Name").item(0).getChildNodes().item(0).getNodeValue();
             String value = element.getElementsByTagName("Value").item(0).getChildNodes().item(0).getNodeValue();
-
+            System.out.println("H");
             mValueCurs.add(new ValueCurs(id,code, nominal, name, value));
         }
 
