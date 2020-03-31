@@ -7,6 +7,8 @@ import java.net.URLConnection;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.nio.file.Files;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -19,8 +21,8 @@ public class Main {
         FileOutputStream fos = new FileOutputStream("currensy.xml");
         fos.getChannel().transferFrom(rbc, 0,Long.MAX_VALUE);*/
        ParseXmlCurrency pxc = new ParseXmlCurrency();
-       pxc.classifyElement();
-
+       LogicWorkConverter lwc = new LogicWorkConverter(pxc);
+       lwc.calculateCurrency();
     }
 
 }

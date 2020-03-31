@@ -5,6 +5,7 @@ public class ValueCurs {
     private int mNominalVal;
     private String mNameValRus;
     private String mValue;
+    private String mDateFileXml;
 
     public ValueCurs(String id, String code, int nominalVal, String nameValRus, String value){
 
@@ -14,6 +15,14 @@ public class ValueCurs {
         mNameValRus = nameValRus;
         mValue = value;
 
+    }
+
+    public void setDateFileXml(String dateFileXml) {
+        mDateFileXml = dateFileXml;
+    }
+
+    public String getDateFileXml(){
+        return mDateFileXml;
     }
 
     public String getID() {

@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc48efa0-148c-4c99-98e5-2b82aa05e934" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LogicWorkConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parseXml/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parseXml/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parseXml/META-INF/parseXml.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/parseXml/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parseXml/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/parseXml/ParseXmlCurrency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parseXml/ParseXmlCurrency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parseXml/ParseXmlEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parseXml/ParseXmlEmployee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/parseXml/ValueCurs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parseXml/ValueCurs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParseXmlCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParseXmlCurrency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValueCurs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValueCurs.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +29,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
   </component>
   <component name="ProjectId" id="1ZnTJI5XzYGJwsmR0h1nG54hz8I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -96,7 +89,7 @@
       <updated>1585290656907</updated>
       <workItem from="1585290660711" duration="10321000" />
       <workItem from="1585312324568" duration="1351000" />
-      <workItem from="1585473787135" duration="48000" />
+      <workItem from="1585473787135" duration="30523000" />
     </task>
     <servers />
   </component>
@@ -124,13 +117,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>16</line>
+          <line>18</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ParseXmlCurrency.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

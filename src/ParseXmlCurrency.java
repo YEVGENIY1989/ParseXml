@@ -27,10 +27,15 @@ public class ParseXmlCurrency {
        // Получаем список всех элементов employee внутри корнего элемента
        // getDocumentElement возвращает root элемент XML файла
        mcurrencyElement = mDocument.getDocumentElement().getElementsByTagName("Valute");
+
+       mDocument.getDocumentElement().getAttribute("Date"); // получаем текущую дату
+
+       classifyElement();
    }
 
 
     public void classifyElement(){
+        Node testNode = mDocument.getParentNode();
 
         //Перебираем все элементы employee
         for(int i = 0; i < mcurrencyElement.getLength(); i++){
@@ -46,20 +51,26 @@ public class ParseXmlCurrency {
             String name = attributes.getNamedItem("Name").getNodeValue();
             Double value = Double.parseDouble(attributes.getNamedItem("Value").getNodeValue());*/
 
-            Element element = (Element) currency;
+            Element element = (Element) currency; // получем элемент
 
+
+            // Получаем значение конкретного аттрибута с помощью метода getNodeValue()
             String id = element.getAttributes().getNamedItem("ID").getNodeValue();
             String code = element.getElementsByTagName("CharCode").item(0).getChildNodes().item(0).getNodeValue();
             Integer nominal = Integer.parseInt(element.getElementsByTagName("Nominal").item(0).getChildNodes().item(0).getNodeValue());
             String name =  element.getElementsByTagName("Name").item(0).getChildNodes().item(0).getNodeValue();
             String value = element.getElementsByTagName("Value").item(0).getChildNodes().item(0).getNodeValue();
-            System.out.println("H");
+
             mValueCurs.add(new ValueCurs(id,code, nominal, name, value));
         }
 
-        for (ValueCurs valueCurs : mValueCurs){
+      /*  for(ValueCurs valueCurs : mValueCurs){
             System.out.println(valueCurs.getValue());
-        }
+        }*/
+    }
+
+    public ArrayList<ValueCurs> getValueCurs(){
+       return  (ArrayList) mValueCurs;
     }
 
 }
